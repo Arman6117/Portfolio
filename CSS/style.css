@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #1d1d20;
+  background-repeat: no-repeat;
+}
+nav {
+  background-color: #0b0c11;
+  text-align: center;
+  width: 100vw;
+  height: 49px;
+  position: fixed;
+  z-index: 1;
+}
+/* Classes  */
+.drop-shadow {
+  filter: drop-shadow(16px 16px 20px black);
+}
+.clip-bg{
+  background-color: #000000;
+  opacity: 1;
+  background-image: radial-gradient(#000000 0.65px, white 0.45px);
+  background-size: 15px 15px;
+}
+.clip-bg2{
+  background-color:#000000;
+  opacity: 1;
+  
+}
+.web-vid-boders{
+  border: 4px solid rgb(0, 0, 0);
+  padding: 11px;
+  border-radius: 26px;
+}
+/* main-content */
+
+/* intro */
+.profile-img {
+  margin: 80px 0px 0px 63px;
+  margin-bottom: 0px;
+  margin-bottom: unset;
+  width: 189px;
+}
+.content {
+  display: flex;
+}
+
+.skills {
+  width: 245px;
+  border-radius: 100px;
+  position: absolute;
+  margin: 60px 66%;
+}
+/* log */
+.brand {
+  width: 59px;
+  position: absolute;
+  margin: 0px -552px;
+}
+.home {
+  height: 650px;
+  z-index: 2;
+  position: relative;
+}
+/* SECTION 2 */
+
+.work {
+  z-index: 1;
+  position: relative;
+}
+.work-content {
+  margin-top: 40px;
+  height: 650px;
+  display: flex;
+ 
+}
+.works {
+  width: 600px;
+  height: 400px;
+
+  -webkit-clip-path: polygon(0 0, 0% 100%, 100% 0);
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+  margin: 0px 0px 0px -340px;
+ 
+}
+.web-vid {
+  width: 450px;
+  margin: 245px 0 0 1px;
+  position: absolute;
+ 
+}
+.work-2 {
+  height: 650px;
+  display: flex;
+  
+}
+.works-2 {
+  width: 694px;
+  height: 400px;
+  margin: 0px 0 0 44.5%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+ 
+}
+.web-vid2 {
+  width: 450px;
+  margin: 183px 0 0 -1064px;
+  position: absolute;
+  
+}
+
+/* SECTION 3 */
+
+.abt {
+  padding: 4px 22px;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+}
+
+/* SECTION 4 */
+
+.contact {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+ 
+  padding-bottom: 50px;
+}
+.scroll {
+  position: absolute;
+  width: 70px;
+  margin: 565px 523px;
+  border-radius: 45px;
+}
+.footer{
+  padding: 38px;
+  text-align: center;
+  position: relative;
+  color: white;
+  z-index: 2;
+  height: 110px;
+  background-color: #0b0c11;
+}
+.footer-txt {
+  font-family: kanit;
+  font-size: 30px;
+}

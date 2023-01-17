@@ -1,0 +1,158 @@
+@import url("https://use.typekit.net/tuw5fhs.css");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Raleway:wght@500&family=Ruda:wght@500&family=Ubuntu:wght@500&display=swap");
+
+/* CLASSES */
+
+.kanit-font {
+  font-family: "Kanit", sans-serif;
+}
+/* SECTION 1 */
+.nav-content {
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-right: 16px;
+}
+.nav-item {
+  padding: 5px 12px;
+}
+.nav-text {
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+}
+/* Header */
+.text {
+  margin: 109px 0px 0px 365px;
+  color: black;
+  font-size: 45px;
+  font-family: ruda, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.5;
+}
+.text1 {
+  margin: 117px 0px 0px 132px;
+  color: black;
+  font-size: 27px;
+  font-family: ruda, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+.p-text {
+  margin: 0px 84px;
+}
+.p-text1 {
+  margin: 0px 83px;
+}
+
+/* SECTION 2 */
+
+.work-text {
+  font-weight: 900;
+  font-style: normal;
+  margin: 31px 0px 0px 49px;
+  color: rgb(255, 255, 255);
+  font-size: 105px;
+  z-index: 1;
+}
+.startup-page {
+  position: absolute;
+  margin: 7% 0 0 49%;
+  color: rgb(0, 0, 0);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 67px;
+  font-weight: 600;
+}
+.startup-page2 {
+  position: absolute;
+  margin: 0% 0 0 75%;
+  color: rgb(255, 255, 255);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 59px;
+  font-weight: 600;
+}
+
+/* SECTION 3 */
+
+.abt-text {
+  font-family: ruda, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  margin: 31px 0px 0px 0px;
+  color: black;
+  font-size: 94px;
+}
+.about-info {
+  padding: 39px 52px;
+  color: #000000;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 1px;
+
+  border: 3px solid rgb(0, 0, 0);
+}
+
+/* SECTION 4 */
+
+.contact-text {
+  font-family: ruda, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  margin: 31px 0px 0px 0px;
+  color: rgb(0, 0, 0);
+  font-size: 105px;
+}
+.cnt {
+  margin: 65px;
+}
+
+.contact-block {
+  border: 3px solid black;
+  height: 450px;
+  width: 330px;
+  margin: auto;
+  border-radius: 26px;
+}
+
+.option-name {
+  margin: -71px 0px 0px -54px;
+  position: absolute;
+  background-color: #000000;
+  width: 201px;
+  padding: 0px 0px 4px 16px;
+  height: 28px;
+}
+.name {
+  color: rgb(255, 255, 255);
+}
+.contact-txt {
+  display: flex;
+  padding: 41px 23px;
+  font-size: 24px;
+
+  color: rgb(0, 0, 0);
+}
+.message {
+  height: 143px;
+  color: rgb(255, 255, 255);
+}
+.email {
+  color: rgb(255, 255, 255);
+}
+.submit-info {
+  width: 100px;
+  height: 38px;
+  font-family: "Ruda";
+  background-color: #ff4303;
+  font-weight: 600;
+}
+.submit-info:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
